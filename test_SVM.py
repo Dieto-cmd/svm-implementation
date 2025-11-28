@@ -48,7 +48,7 @@ class TestSVM(unittest.TestCase):
         print("MFUP SVM scores:", scores)
         print("Mean MFUP SVM accuracy:", round(scores.mean(), 2), '%')
 
-        def test_mnist(self):
+    def test_mnist(self):
     # 1. Wczytanie danych MNIST
         (X_train, y_train), (X_test, y_test) = mnist.load_data()
         # X_train: (60000, 28, 28)
